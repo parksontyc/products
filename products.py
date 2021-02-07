@@ -12,3 +12,6 @@ while True:
 print(products)
 
 print(products[0][0])
+
+for i in products:
+	print(i)
