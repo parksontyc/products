@@ -15,3 +15,7 @@ print(products[0][0])
 
 for i in products:
 	print(i)
+
+with open('products.txt', 'w') as f:
+	for i in products:
+		f.write(i[0] + ',' + i[1] + '\n')
